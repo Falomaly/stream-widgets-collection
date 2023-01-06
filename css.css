@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Jura:700);
+
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+#container-after {
+    transition-duration: 500ms;
+    top: 465px;
+    left: 0;
+    position: absolute;
+    width: 1920px;
+    height: 150px;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+#container-final {
+    transition-duration: 500ms;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+
+#bg-line-final {
+    position: absolute;
+    width: 1920px;
+    height: 150px;
+    transition-duration: 500ms;
+    left: 0;
+    top: 465px;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+#bg-line-after {
+    position: absolute;
+    width: 1920px;
+    height: 150px;
+    transition-duration: 500ms;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.showOpacity {
+    opacity: 0;
+    transition-duration: 500ms;
+}
+
+
+#quote {
+    z-index: 4;
+    position: absolute;
+    left: 238px;
+    top: 31px;
+    font-family: 'Jura', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+
+#pizdabol {
+    z-index: 1;
+    position: absolute;
+    left: 542px;
+    top: 101px;
+    font-family: 'Jura', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #939393;
+}
+
+#quotePNGRight {
+    z-index: 1;
+    position: absolute;
+    width: 27.92px;
+    height: 27.92px;
+    left: 870px;
+    top: 64px;
+    transform: rotate(165deg);
+}
+
+#quotePNGLeft {
+    z-index: 1;
+    position: absolute;
+    width: 27.92px;
+    height: 27.92px;
+    left: 200px;
+    top: 20px;
+    transform: rotate(23.13deg);
+}
+
+#line {
+    z-index: 1;
+    position: absolute;
+    width: 130px;
+    height:1px;
+    left: 960px;
+    top: 75px;
+    border: 1px solid #FFFFFF;
+    background-color: #ffffff;
+    transform: rotate(90deg);
+}
+
+#icons {
+    z-index: 1;
+    position: absolute;
+    top: 37px;
+    align-content: center;
+    left: 1130px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}

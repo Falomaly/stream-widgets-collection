@@ -37,6 +37,7 @@ a {
     color: #F31A68;
     text-decoration: none;
     font-weight: normal;
+    transition-duration: 400ms;
 }
 
 body {
@@ -60,6 +61,11 @@ body {
     grid-column: 2;
     grid-auto-rows: auto;
     grid-auto-columns: auto;
+}
+
+a:hover {
+    color: #b324e3;
+    transition-duration: 400ms;
 }
 
 .grid-item {

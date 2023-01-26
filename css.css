@@ -8,7 +8,7 @@
 /*First animation state, content somewhere on the right*/
 #container-first {
     transition-duration: 500ms;
-    top: 465px;
+    top: 455px;
     left: 2000px;
     position: absolute;
     width: 1920px;
@@ -18,7 +18,7 @@
 
 #container-second {
     transition-duration: 500ms;
-    top: 465px;
+    top: 455px;
     left: 0;
     position: absolute;
     width: 1920px;
@@ -65,7 +65,7 @@
     height: 150px;
     transition-duration: 500ms;
     left: 0;
-    top: 465px;
+    top: 455px;
     background: rgba(0, 0, 0, 0.75);
 }
 
@@ -102,6 +102,11 @@
     animation-timing-function: ease-out;
 }
 
+.fandeInLetters {
+    animation-name: fadeIn;
+    animation-duration: 3s;
+}
+
 .opacityZero {
     opacity: 0;
     transition-duration: 200ms;
@@ -118,6 +123,16 @@
     animation-name: svgAnimation;
     animation-duration: 500ms;
 }
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 
 @keyframes svgAnimation {
    0% {

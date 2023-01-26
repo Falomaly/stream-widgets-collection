@@ -1,0 +1,71 @@
+@import url(http://fonts.googleapis.com/css?family=Inter);
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Inter, sans-serif;
+    color: white;
+}
+
+h1 {
+    margin: 100px 0 0;
+    text-align: center;
+    font-size: 6em;
+}
+
+h2 {
+    padding: 25px 0 0 20px;
+}
+
+p {
+    width: 201px;
+    height: 72px;
+    left: 40px;
+    top: 60px;
+    color: #7EF9BE;
+    font-size: 18px;
+    padding: 10px 0 0 40px;
+}
+
+h3 {
+    margin:25px 0 5px 40px;
+    color: #F31A68;
+
+}
+
+a {
+    color: #F31A68;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+body {
+    background-color: #12131a;
+}
+
+.grid-container {
+    position: relative;
+    margin: 100px 23vw;
+    display: inline-grid;
+    row-gap: 50px;
+    column-gap: 50px;
+}
+
+.item1 {
+    grid-auto-rows: auto;
+    grid-auto-columns: auto;
+}
+
+.item2 {
+    grid-column: 2;
+    grid-auto-rows: auto;
+    grid-auto-columns: auto;
+}
+
+.grid-item {
+    cursor: pointer;
+    width: 462px;
+    height: 200px;
+    background: radial-gradient(99.03% 598.02% at 101.62% 91.49%, rgba(255, 118, 167, 0.6) 0%, rgba(32, 34, 45, 0.18) 37.58%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(96.01% 554.89% at 93.07% -7.18%, #7085f8 0%, rgba(32, 35, 45, 0.84) 29.05%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border-radius: 30px;
+}

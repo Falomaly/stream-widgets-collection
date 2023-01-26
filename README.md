@@ -1,2 +1,4 @@
-# widget-banner-afk-project
-A widget for streamlabs / OBS for pause stream. Just a simple banner with animation.
+# A project for streamlabs / OBS stream widgets for my friends.
+
+List of widgets:
+# - AFK banner
